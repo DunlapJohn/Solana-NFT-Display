@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+Button {
+  background-color: #282c34;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -44,6 +46,7 @@
 
 .inputForm{
   padding: 20px;
+  background-color: #282c3400;
 }
 
 .imageGrid {

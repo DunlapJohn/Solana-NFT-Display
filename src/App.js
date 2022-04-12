@@ -98,11 +98,13 @@ function App(props) {
             placeholder="Wallet address"
           />
         </Col>
-        <Col xs="12" md="12" lg="3" className="d-grid">
+        <Col xs="12" md="12" lg="2" className="d-grid">
           <Button
             variant={props.variant.toLowerCase()}
             type="submit"
             onClick={getNfts}
+            backgroundColor ='black'
+            Style={{backgroundColor: 'black'}}
           >
             {" "}
             Get NFTs from {props.title}{" "}
@@ -124,7 +126,7 @@ function App(props) {
           <Col xs="12" md="12" lg="3">
             <Card
               className="imageGrid"
-              lg="3"
+              lg="5"
               key={index}
               style={{ width: "100%" }}
             >
